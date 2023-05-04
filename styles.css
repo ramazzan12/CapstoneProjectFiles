@@ -1,0 +1,49 @@
+html {
+    margin-left: 500px;
+    margin-top: 100px;
+}
+body {
+    border: 2px solid black;
+    width: 400px;
+}
+span {
+    margin: 0;
+    padding: 0;
+    width: 70px;   
+}
+.folds {
+    display: flex;
+}
+.fold {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+    border: 1px solid black;
+    width: 100px;
+    height: 40px;
+}
+.fold p {
+    font-weight: bolder;
+}
+
+.sets {
+    display: flex;
+}
+
+.set {
+    display: flex;
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.set p {
+    font-weight: bolder;
+}
+.train {
+    background-color: greenyellow;
+}
